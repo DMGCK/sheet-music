@@ -3,7 +3,7 @@
   composer = "Cameron Kueneman"
 }
 
-\score {
+\score { <<
   \relative c'  
   \new Staff{
   \time 4/4 \clef treble
@@ -22,10 +22,10 @@
     <c e g a c >2
 
   }
-  \new Staff { \time 4/4 \clef treble
-  r1
-  
-  
+  \new Staff { \time 4/4 \clef bass
+  r1 r1 
+  }
+  >>
   }
 
   \layout {}
